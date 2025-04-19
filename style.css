@@ -38,6 +38,15 @@ html {
     color: #333333;
     letter-spacing: 0;
   }
+
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 20rem;
+    margin: 1rem;
+  }
+
   
   button {
     background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
@@ -134,6 +143,10 @@ html {
   }
   .my-bio p {
     font-size: 1rem;
+  }
+
+  .headshot img {
+    width: 10rem;
   }
 
   .portfolio h2 {
